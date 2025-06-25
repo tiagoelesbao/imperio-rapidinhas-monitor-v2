@@ -1,0 +1,211 @@
+# Credenciais e configurações sensíveis
+credentials/
+credenciais_google.json
+config/config.json
+config/users.json
+.env
+.env.*
+
+# Dados e backups
+data/
+backups/
+backup_*/
+*.json
+!requirements.json
+!package.json
+rifas_*.json
+captura_*.json
+resumo_*.json
+
+# Arquivos temporários
+*.html
+*.log
+*.tmp
+debug_*
+temp_*
+test_*
+
+# Relatórios de limpeza
+cleanup_report_*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+*.egg-info/
+dist/
+build/
+
+# Selenium/WebDriver
+chromedriver*
+geckodriver*
+*.exe
+!INIT.bat
+!start_*.bat
+
+# IDE e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Sistema Operacional
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+!.gitkeep
+
+# Arquivos de sessão
+flask_session/
+sessions/
+
+# Certificados SSL
+*.pem
+*.key
+*.crt
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node (se usar no futuro)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de produção específicos
+instance/
+.webassets-cache
+
+# Arquivos grandes
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Diretório de uploads (se existir)
+uploads/
+media/
+
+# Cache
+.cache/
+*.cache
+
+# Arquivos de configuração local
+local_settings.py
+config.local.json
+
+# Documentação gerada
+docs/_build/
+site/
+
+# Jupyter Notebooks (se usar)
+.ipynb_checkpoints/
+
+# Coverage reports
+coverage.xml
+*.cover
+
+# Virtual environments específicos
+pyvenv.cfg
+activate
+activate.bat
+Activate.ps1
+
+# Arquivos de lock
+*.lock
+!Pipfile.lock
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+.netrwhist
+tags
+
+# Sublime Text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# JetBrains
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.metadata
+.classpath
+.project
+.settings/
+bin/
+tmp/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Arquivos específicos do projeto para ignorar
+public_url.txt
+diagnostic_html_*.html
+diagnostic_result_*.json
