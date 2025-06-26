@@ -1,0 +1,31 @@
+{
+  "imperio": {
+    "username": "tiago",
+    "password": "tiagao",
+    "base_url": "https://dashboard.imperiorapidinhas.me"
+  },
+  "automation": {
+    "auto_capture_enabled": false,
+    "capture_interval_minutes": 60,
+    "capture_times": [
+      "08:00",
+      "12:00",
+      "18:00",
+      "22:00"
+    ],
+    "use_headless": true,
+    "dashboard_auto_refresh": true,
+    "dashboard_refresh_seconds": 300
+  },
+  "notifications": {
+    "enabled": false,
+    "email": "",
+    "webhook_url": ""
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 5001,
+    "debug": false,
+    "secret_key": "e9c6ae7ff790c9a9ffae094cc65cef10fdf67e9173ecb29d929adeee33f9e703"
+  }
+}

@@ -117,7 +117,7 @@ class ImperioAutomationSystem:
         
         try:
             # Importa e executa captura
-            from capture_unlimited import ImperioRapidinhaSCaptureUnlimited
+            from capture_corrected import ImperioRapidinhaSCaptureUnlimited
             
             capture = ImperioRapidinhaSCaptureUnlimited(str(self.config_file))
             result = capture.run(headless=headless, capture_details=False)
